@@ -1,4 +1,12 @@
 /* Reset some default styles */
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
 html {scroll-behavior: smooth;}
 
 body, h1, h2, h3, p, ul, li {
@@ -15,11 +23,11 @@ body {
 }
 
 header {
-    position: fixed;
+    position: relative;
     background-image: url('../img/navtexture.jpg');
     color: white;
     padding: 1rem;
-    width: 98%;
+    width: 100%;
     box-shadow: 0 0px 2px 0 rgba(0, 0, 0, 0.2), 0 1px 3px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -90,10 +98,98 @@ nav a:hover {
     box-shadow: 0 0px 8px 0 rgba(0, 0, 0, 0.2), 0 1px 3px 0 rgba(0, 0, 0, 0.19);
 }
 
+.container {
+    padding: 3rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 20rem;
+    gap: 10px;
+    background-image: url('../img/featuredtexture.jpg');
+
+  
+    > div {
+      flex: 0 0 120px;
+      border-radius: 0.5rem;
+      transition: 0.5s ease-in-out;
+      cursor: pointer;
+      box-shadow: 1px 5px 15px #db8052;
+      position: relative;
+      overflow: hidden;
+      
+  
+      &:nth-of-type(1) {
+        background: url("../img/cheese-cake.jpg")
+          no-repeat 50% / cover;
+      }
+      &:nth-of-type(2) {
+        background: url("../img/Latte.png")
+          no-repeat 50% / cover;
+      }
+      &:nth-of-type(3) {
+        background: url("../img/croissant.jpg")
+          no-repeat 50% / cover;
+      }
+      &:nth-of-type(4) {
+        background: url("../img/hot-chocolate.jpg")
+          no-repeat 50% / cover;
+      }
+      &:nth-of-type(5) {
+        background: url("../img/tiramisu.jpg")
+          no-repeat 50% / cover;
+      }
+  
+      .content {
+        font-size: 1.5rem;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        padding: 15px;
+        opacity: 0;
+        flex-direction: column;
+        height: 100%;
+        justify-content: flex-end;
+        background: rgb(2, 2, 46);
+        background: linear-gradient(
+          0deg,
+          rgba(218, 137, 78, 0.676) 0%,
+          rgba(207, 132, 85, 0) 100%
+        );
+        transform: translatey(100%);
+        transition: opacity 0.5s ease-in-out, transform 0.5s 0.2s;
+        visibility: hidden;
+
+  
+        span {
+          display: block;
+          margin-top: 5px;
+          font-size: 1.2rem;
+        }
+
+        
+      }
+  
+      &:hover {
+        flex: 0 0 250px;
+        box-shadow: 1px 3px 15px #e6a074;
+        transform: translatey(-30px);
+      }
+  
+      &:hover .content {
+        opacity: 1;
+        transform: translatey(0%);
+        visibility: visible;
+      }
+    }
+  }
+
+  
+  
+
 .menu {
     padding: 100px 0;
     text-align: center;
-    background-color: #cfc199;
+    background-color: #f8c4a6;
 }
 
 .menu h2 {
@@ -104,7 +200,8 @@ nav a:hover {
 .about {
     padding: 100px 0;
     text-align: center;
-    background-color: #ede4d6;
+    background-color: #f8c4a6;
+
 }
 
 .about h2 {
