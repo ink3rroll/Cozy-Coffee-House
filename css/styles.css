@@ -16,7 +16,7 @@ body {
 
 header {
     position: fixed;
-    background-color: #ebc8b9;
+    background-color: #897b63;
     color: white;
     padding: 1rem;
     width: 98%;
@@ -40,15 +40,16 @@ nav ul {
     gap: 20px;
 }
 
+
 nav a {
     text-decoration: none;
-    color: #4c3c32;
+    color: #e3d7d1;
     font-weight: bold;
     transition: color 0.3s;
 }
 
 nav a:hover {
-    color: #7e685b;
+    color: #ece9e8;
 }
 
 .hero {
