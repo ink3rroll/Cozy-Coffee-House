@@ -54,7 +54,7 @@ nav a:hover {
 .hero {
     text-align: center;
     padding: 150px 0;
-    background-image: url('hero-bg.jpg');
+    background-image: url('../img/hero-bg1.jpg');
     background-size: cover;
     color: white;
 }
@@ -76,13 +76,14 @@ nav a:hover {
     border: 1px;
     border-style: solid;
     border-color: #c6c6c6;
-    color: #ffffff;
+    color: #633f3f;
     text-decoration: none;
     border-radius: 10px;
     font-size: 1rem;
 }
 
 .cta-button:hover {
+    background-color: #e0d4b2;
     box-shadow: 0 0px 8px 0 rgba(0, 0, 0, 0.2), 0 1px 3px 0 rgba(0, 0, 0, 0.19);
 }
 
