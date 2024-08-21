@@ -72,10 +72,13 @@ nav a:hover {
 .hero h1 {
     font-size: 36px;
     margin-bottom: 20px;
+    text-shadow: 2px 2px 3px #ffc508;
 }
 
 .hero p {
-    font-size: 18px;
+    font-family: Georgia;
+    font: bolder;
+    font-size: 1rem;
     margin-top: -1rem;
     margin-bottom: 40px;
 }
@@ -98,6 +101,24 @@ nav a:hover {
     box-shadow: 0 0px 8px 0 rgba(0, 0, 0, 0.2), 0 1px 3px 0 rgba(0, 0, 0, 0.19);
 }
 
+.featured {
+  background-image: url('../img/featuredtexture.jpg')
+}
+
+.tag {
+  font-family: Georgia;
+  font-size: 1rem;
+  font: bolder;
+  text-align: center;
+  padding-bottom: 3rem;
+  text-shadow: 2px 2px 3px #9b6565;
+}
+
+.tag span {
+  color: #000000;
+}
+
+
 .container {
     padding: 3rem;
     width: 100%;
@@ -105,7 +126,7 @@ nav a:hover {
     justify-content: center;
     height: 20rem;
     gap: 10px;
-    background-image: url('../img/featuredtexture.jpg');
+    
 
   
     > div {
@@ -183,18 +204,58 @@ nav a:hover {
     }
   }
 
-  
-  
 
 .menu {
-    padding: 100px 0;
-    text-align: center;
-    background-color: #f8c4a6;
+  padding: 100px 0;
+  text-align: center;
+  background-image: url('../img/bricktexture.png');
+  color: #fce4e4;
+  
 }
 
 .menu h2 {
-    font-size: 30px;
-    margin-bottom: 20px;
+  font-size: 4rem;
+  margin-bottom: 20px;
+  padding-top: -5rem;
+  margin-top: -5rem;
+  text-shadow: 5px 5px 5px #1e1703;
+}
+  
+
+
+.menu-item {
+  display: inline-block;
+  width: 300px;
+  margin: 20px;
+  padding: 20px;
+  background-color: #daa379;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: 0.5s ease-in-out;
+  color: #2b1c1c;
+
+  &:hover {
+    flex: 0 0 250px;
+    box-shadow: 1px 3px 15px #e6a074;
+    transform: translatey(-30px);
+  }
+
+  &:hover .content {
+    opacity: 1;
+    transform: translatey(0%);
+    visibility: visible;
+  }
+}
+
+.menu-item:hover {
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+}
+
+.menu-item img {
+  max-width: 100%;
+}
+.menu h3 {
+  font-size: 2rem;
 }
 
 .about {
