@@ -25,7 +25,7 @@ body {
 header {
     position: relative;
     background-image: url('../img/navtexture.jpg');
-    color: white;
+    color: rgb(0, 0, 0);
     padding: 1rem;
     width: 100%;
     box-shadow: 0 0px 2px 0 rgba(0, 0, 0, 0.2), 0 1px 3px 0 rgba(0, 0, 0, 0.19);
@@ -36,6 +36,10 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.active {
+  color: #000000;
 }
 
 .logo img {
@@ -51,14 +55,14 @@ nav ul {
 
 nav a {
     text-decoration: none;
-    color: #e1d1bd;
+    color: #e9ded1;
     font-weight: bold;
     font-size: 1rem;
     transition: color 0.3s;
 }
 
 nav a:hover {
-    color: #ece9e8;
+    color: #68321f;
 }
 
 .hero {
@@ -292,6 +296,14 @@ nav a:hover {
     font-size: 18px;
     margin-bottom: 40px;
 }
+
+.icon {
+  flex-direction: column;
+  width: 2rem;
+  margin: .5rem;
+}
+
+
 
 footer {
     background-color: #4c3c32;
