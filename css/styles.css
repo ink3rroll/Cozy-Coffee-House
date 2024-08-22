@@ -269,6 +269,38 @@ nav a:hover {
 
 }
 
+.bio {
+  display: inline-block;
+  width: 300px;
+  margin: 20px;
+  padding: 20px;
+  background-color: #daa379;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: 0.5s ease-in-out;
+  color: #2b1c1c;
+
+  &:hover {
+    flex: 0 0 250px;
+    box-shadow: 1px 3px 15px #e6a074;
+    transform: translatey(-30px);
+  }
+
+  &:hover .content {
+    opacity: 1;
+    transform: translatey(0%);
+    visibility: visible;
+  }
+}
+
+.bio:hover {
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+}
+
+.bio img {
+  max-width: 100%;
+}
+
 .about h2 {
     font-size: 30px;
     margin-bottom: 20px;
