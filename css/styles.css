@@ -6,6 +6,28 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: retro;
+  src: url(retro.otf);
+}
+
+@font-face {
+  font-family: milky;
+  src: url(MilkyVintage-Regular.ttf);
+}
+
+@font-face {
+  font-family: Mekon;
+  src: url(Mekon-Gradient.ttf);
+}
+
+@font-face {
+  font-family: AirAmericana;
+  src: url(AirAmericanaDEMO-Bold.ttf);
+}
+
+
+
 
 html {scroll-behavior: smooth;}
 
@@ -15,7 +37,7 @@ body, h1, h2, h3, p, ul, li {
 }
 
 body {
-    font-family: 'Georgia';
+    font-family: Georgia;
     margin: 0;
     padding: 0;
     background-color: #ebc8b9;
@@ -96,14 +118,15 @@ nav a:hover {
 
 .hero {
     text-align: center;
-    padding: 150px 0;
+    padding: 7rem 0;
     background-image: url('../img/hero-bg1.jpg');
     background-size: cover;
     color: white;
 }
 
 .hero h1 {
-    font-size: 36px;
+  font-family: Arial, Helvetica, sans-serif;
+    font-size: 3rem;
     margin-bottom: 20px;
     text-shadow: 2px 2px 3px #ffc508;
 }
@@ -153,10 +176,7 @@ nav a:hover {
   color: #b45555;
 }
 
-@font-face {
-  font-family: retro;
-  src: url(retro.otf);
-}
+
 .sign {
   position: relative;
   display: flex;
@@ -574,6 +594,40 @@ footer {
     background-color: #4c3c32;
     color: white;
     text-align: center;
-    font-size: .7rem;
+    font-size: 1rem;
     padding: 20px 0;
 }
+
+footer div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+footer form p {
+  font-size: 1rem;
+  
+}
+
+footer ul {
+  margin-bottom: 10px;
+}
+
+footer ul li {
+  display: inline;
+  
+}
+
+footer input {
+  border-radius: 3px;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  padding: 5px;
+  background-color: #f3c29d;
+  color: #100802;
+  border: none;
+}
+
+
