@@ -64,8 +64,10 @@ nav {
     align-items: center;
 }
 
-.active {
-  color: #000000;
+#active {
+  text-decoration: underline;
+  text-underline-offset: 4.5px;
+  border-bottom: 1px solid #ffeded;
 }
 
 .logo img {
@@ -117,10 +119,10 @@ nav a:hover {
 .cta-button {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #cfc199;
+    background-color: #dad8d0;
     border: 1px;
     border-style: solid;
-    border-color: #c6c6c6;
+    border-color: #a22b2b;
     color: #2b1c1c;
     text-decoration: none;
     border-radius: 10px;
@@ -128,7 +130,9 @@ nav a:hover {
 }
 
 .cta-button:hover {
-    background-color: #e0d4b2;
+    background-color: rgba(219, 219, 214, 0.2) ;
+    color: #ccc;
+    border-color: #ccc;
     box-shadow: 0 0px 8px 0 rgba(0, 0, 0, 0.2), 0 1px 3px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -141,12 +145,212 @@ nav a:hover {
   font-size: 1rem;
   font: bolder;
   text-align: center;
-  padding-bottom: 3rem;
-  text-shadow: 2px 2px 3px #9b6565;
+  padding-bottom: 3rem; 
+  text-shadow: 2px 2px 3px #db985c;
 }
 
 .tag span {
-  color: #000000;
+  color: #b45555;
+}
+
+@font-face {
+  font-family: retro;
+  src: url(retro.otf);
+}
+.sign {
+  position: relative;
+  display: flex;
+  margin-top: 2rem;
+  margin-bottom: -1rem;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  background-image: radial-gradient(
+    ellipse 50% 35% at 50% 50%,
+    #6b4618,
+    transparent
+  );
+  transform: translate(-50%, -50%);
+  letter-spacing: 2;
+  left: 50%;
+  top: 50%;
+  font-family: retro;
+  text-transform: uppercase;
+  font-size: 4em;
+  color: #ffe6ff;
+  text-shadow: 0 0 0.6rem #ffe6ff, 0 0 1.5rem #f7cc94,
+    -0.2rem 0.1rem 1rem #ffb765, 0.2rem 0.1rem 1rem #ffc165,
+    0 -0.5rem 2rem #ff9524, 0 0.5rem 3rem #ffb224;
+  animation: shine 2s forwards, flicker 3s infinite;
+}
+
+@keyframes blink {
+  0%,
+  22%,
+  36%,
+  75% {
+    color: #ffe6ff;
+    text-shadow: 0 0 0.6rem #ffe6ff, 0 0 1.5rem #ffce65,
+      -0.2rem 0.1rem 1rem #ffd665, 0.2rem 0.1rem 1rem #ffe365,
+      0 -0.5rem 2rem #ffb624, 0 0.5rem 3rem #ffb624;
+  }
+  28%,
+  33% {
+    color: #ffa065;
+    text-shadow: none;
+  }
+  82%,
+  97% {
+    color: #ff8724;
+    text-shadow: none;
+  }
+}
+
+.flicker {
+  animation: shine 2s forwards, blink 3s 2s infinite;
+}
+
+.fast-flicker {
+  animation: shine 2s forwards, blink 10s 1s infinite;
+}
+
+@keyframes shine {
+  0% {
+    color: #6b1839;
+    text-shadow: none;
+  }
+  100% {
+    color: #fffbe6;
+    text-shadow: 0 0 0.6rem #fff8e6, 0 0 1.5rem #ffc965,
+      -0.2rem 0.1rem 1rem #ffce65, 0.2rem 0.1rem 1rem #ffc165,
+      0 -0.5rem 2rem #ff9524, 0 0.5rem 3rem #ffa724;
+  }
+}
+
+@keyframes flicker {
+  from {
+    opacity: 1;
+  }
+
+  4% {
+    opacity: 0.9;
+  }
+
+  6% {
+    opacity: 0.85;
+  }
+
+  8% {
+    opacity: 0.95;
+  }
+
+  10% {
+    opacity: 0.9;
+  }
+
+  11% {
+    opacity: 0.922;
+  }
+
+  12% {
+    opacity: 0.9;
+  }
+
+  14% {
+    opacity: 0.95;
+  }
+
+  16% {
+    opacity: 0.98;
+  }
+
+  17% {
+    opacity: 0.9;
+  }
+
+  19% {
+    opacity: 0.93;
+  }
+
+  20% {
+    opacity: 0.99;
+  }
+
+  24% {
+    opacity: 1;
+  }
+
+  26% {
+    opacity: 0.94;
+  }
+
+  28% {
+    opacity: 0.98;
+  }
+
+  37% {
+    opacity: 0.93;
+  }
+
+  38% {
+    opacity: 0.5;
+  }
+
+  39% {
+    opacity: 0.96;
+  }
+
+  42% {
+    opacity: 1;
+  }
+
+  44% {
+    opacity: 0.97;
+  }
+
+  46% {
+    opacity: 0.94;
+  }
+
+  56% {
+    opacity: 0.9;
+  }
+
+  58% {
+    opacity: 0.9;
+  }
+
+  60% {
+    opacity: 0.99;
+  }
+
+  68% {
+    opacity: 1;
+  }
+
+  70% {
+    opacity: 0.9;
+  }
+
+  72% {
+    opacity: 0.95;
+  }
+
+  93% {
+    opacity: 0.93;
+  }
+
+  95% {
+    opacity: 0.95;
+  }
+
+  97% {
+    opacity: 0.93;
+  }
+
+  to {
+    opacity: 1;
+  }
 }
 
 
@@ -192,7 +396,7 @@ nav a:hover {
       }
   
       .content {
-        font-size: 1.5rem;
+        font-size: 1rem;
         color: #fff;
         display: flex;
         align-items: center;
@@ -370,5 +574,6 @@ footer {
     background-color: #4c3c32;
     color: white;
     text-align: center;
+    font-size: .7rem;
     padding: 20px 0;
 }
