@@ -520,10 +520,18 @@ nav a:hover {
   color: #fce4e4;
 }
 
+.about h2 {
+  font-size: 4rem;
+  margin-bottom: 20px;
+  padding-top: -5rem;
+  margin-top: -5rem;
+  text-shadow: 5px 5px 5px #1e1703;
+}
+
 .bio {
   display: inline-block;
   width: 300px;
-  margin: 20px;
+  margin: 2rem;
   padding: 20px;
   background-color: #daa379;
   border: 1px solid #ccc;
@@ -557,6 +565,11 @@ nav a:hover {
 .about h2 {
     font-size: 30px;
     margin-bottom: 20px;
+}
+
+.about h3 {
+  font-size: 1.5rem;
+  margin: 2rem;
 }
 
 .about p {
@@ -604,19 +617,21 @@ iframe {
 /* Style the submit button */
 .contact input[type=submit] {
   width: 20%;
-  background-color: #04AA6D;
-  color: white;
+  background-color: #f3c29d;
+  color: rgb(103, 21, 21);
   display: inline-block;
   padding: 14px 20px;
   margin: 8px 0;
-  border: none;
+  border: solid;
   border-radius: 4px;
   cursor: pointer;
 }
 
 /* Add a background color to the submit button on mouse-over */
 .contact input[type=submit]:hover {
-  background-color: #45a049;
+  background-color: rgba(218, 137, 78, 0.676);
+
+  color: #ccc;
 }
 
 .contact .location {
