@@ -568,8 +568,9 @@ nav a:hover {
 .contact {
     padding: 100px 0;
     text-align: center;
-    background-color: #4c3c32;
+    background-image: url(../img/bricktexture.png);
     color: white;
+
 }
 
 .contact h2 {
@@ -580,6 +581,50 @@ nav a:hover {
 .contact p {
     font-size: 18px;
     margin-bottom: 40px;
+}
+
+
+iframe {
+  width: 50%;
+  border-radius: 10px;
+  position: relative;
+}
+
+/* Style inputs */
+.contact [type=text], select {
+  width: 30%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-flexbox;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* Style the submit button */
+.contact input[type=submit] {
+  width: 20%;
+  background-color: #04AA6D;
+  color: white;
+  display: inline-block;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Add a background color to the submit button on mouse-over */
+.contact input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.contact .location {
+  margin-top: 10rem;
+}
+
+#feedback {
+  margin-top: 10rem;
 }
 
 .icon {
