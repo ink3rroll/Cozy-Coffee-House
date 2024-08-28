@@ -23,15 +23,15 @@ and its contact details.
 
 ---
 
-![Featured](FEATURED.png)
+![Featured](screen caps/featured.png)
 > The featured section showcases the best-selling products offered.
 
 ---
 
-![Menu](MENU.png)
+![Menu](screen caps/menu.png)
 > The menu page shows the products available.
 
 ---
 
-![Map](MAP.png)
+![Map](screen caps/map.png)
 > The address and its map on the contact page.
