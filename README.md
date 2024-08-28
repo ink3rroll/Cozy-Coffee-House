@@ -16,3 +16,22 @@ and its contact details.
 - Embedded google maps view of the Address
 
 ---
+
+## Screen Captures
+![Hero](HERO.png)
+> The hero section showcases the interior of the coffee house.
+
+---
+
+![Featured](FEATURED.png)
+> The featured section showcases the best-selling products offered.
+
+---
+
+![Menu](MENU.png)
+> The menu page shows the products available.
+
+---
+
+![Map](MAP.png)
+> The address and its map on the contact page.
