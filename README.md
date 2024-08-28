@@ -18,20 +18,20 @@ and its contact details.
 ---
 
 ## Screen Captures
-![Hero](screen caps\hero.png)
+![Hero](screencaps/hero.png)
 > The hero section showcases the interior of the coffee house.
 
 ---
 
-![Featured](screen caps\featured.png)
+![Featured](screencaps/featured.png)
 > The featured section showcases the best-selling products offered.
 
 ---
 
-![Menu](screen caps\menu.png)
+![Menu](screencaps/menu.png)
 > The menu page shows the products available.
 
 ---
 
-![Map](screen caps\map.png)
+![Map](screencaps/map.png)
 > The address and its map on the contact page.
