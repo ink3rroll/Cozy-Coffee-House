@@ -47,9 +47,9 @@ and its contact details.
 
 **Social Links**
 
-> [Facebook Account](https://www.facebook.com/errolljayke.montalvo.7)
+> [![Facebook Account](https://github.com/gauravghongde/social-icons/blob/master/PNG/White/Facebook_white.png 'Facebook Account')](https://www.facebook.com/errolljayke.montalvo.7)
 
-> [Github Account](https://github.com/ink3rroll)
+> ![Github Account](https://github.com/ink3rroll)
 
 <img src="img/ronald.png" width="150" style="border-radius: 50%;">
 
@@ -59,6 +59,6 @@ and its contact details.
 
 **Social Links**
 
-> [Facebook Account](https://www.facebook.com/profile.php?id=100007739118990)
+> ![Facebook Account](https://www.facebook.com/profile.php?id=100007739118990)
 
-> [Github Account](https://github.com/ocelotmannn)
+> ![Github Account](https://github.com/ocelotmannn)
