@@ -34,4 +34,31 @@ and its contact details.
 ---
 
 ![Map](screencaps/map.png)
-> The address and its map on the contact page.
+> The address and its map on the contact page.-
+
+---
+
+## About the Authors
+<img src="img/erroll.png" width="150" style="border-radius: 50%;">
+
+### **Erroll Jayke Montalvo**
+
+> **ink3roll@gmail.com**
+
+**Social Links**
+
+> [Facebook Account](https://www.facebook.com/errolljayke.montalvo.7)
+
+> [Github Account](https://github.com/ink3rroll)
+
+<img src="img/ronald.png" width="150" style="border-radius: 50%;">
+
+### **Jan Ronald Palo**
+
+> **ronaldkun999@gmail.com**
+
+**Social Links**
+
+> [Facebook Account](https://www.facebook.com/profile.php?id=100007739118990)
+
+> [Github Account](https://github.com/ocelotmannn)
